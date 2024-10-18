@@ -12,6 +12,14 @@ class ElementTabs {
     async clickOnTextBoxTab(){
         await this.elements.textBoxTab().click();
     }
+
+    async clickOnCheckboxTab(){
+        await this.elements.checkBoxTab().click();
+    }
+
+    async clickOnRadioButtonTab(){
+        await this.elements.radioButtonTab().click();
+    }
 }
 
 
